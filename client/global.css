@@ -1,0 +1,20 @@
+/* Basic reset and global styles for Material UI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Inter", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Ensure Material UI components work properly */
+.MuiCssBaseline-root {
+  color-scheme: light;
+}
